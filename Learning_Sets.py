@@ -9,9 +9,11 @@ difference_update <-
 discard <-
 intersection <-
 intersection_update <-
-isdisjoint
+isdisjoint ->>>> check whether the two sets are disjoint
+or not, if it isdisjoint then it returns True otherwise
+it will return False.
 issubset <-
-issuperset
+issuperset <-
 pop ->>> randomly removes an item from the set
 remove < -
 symmetric_difference
