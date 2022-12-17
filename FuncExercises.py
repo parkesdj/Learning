@@ -27,4 +27,21 @@ def show_employee(name, salary=9000):
 
 show_employee('John', 7860)
 
+# Create an outer function that will accept two parameters, a and b
+# Create an inner function inside an outer function that will calculate the addition of a and b
+# At last, an outer function will add 5 into addition and return it
 
+def inner_outer(a, b):
+
+    def addition(a ,b):
+        return a + b
+
+        # call inner function from outer function
+
+    add = addition(a, b)
+    # add 5 to the result
+    return add + 5
+
+
+result = inner_outer(12, 9)
+print(result)
